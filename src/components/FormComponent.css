@@ -1,0 +1,33 @@
+label {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+input {
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+
+input:focus{
+    outline: none;
+}
+
+.btn{
+    background-color: aquamarine;
+    color:black;
+    cursor: pointer;
+    display: block;
+    margin: 10px 0 30px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btn:disabled, .btn[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
